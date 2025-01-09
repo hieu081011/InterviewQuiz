@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: "Lato";
+}
+
+:root {
+    --color-black: #2c2a29;
+    --color-text-black: #1f1f1f;
+    --color-light__background: #f4f0ea;
+}
